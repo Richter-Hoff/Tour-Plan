@@ -1,5 +1,5 @@
 .navbar
-  background-color: #fff
+  background-color: $light
   &-top
     display: flex
     justify-content: space-between
@@ -8,6 +8,23 @@
   &__search
     margin-right: auto
     margin-left: 108px
+  &-bottom
+    background-color: $blue
+  &-menu
+    display: flex
+    justify-content: space-between
+    padding: 31px 0
+    margin: 0
+    list-style-type: none
+    color: $light
+    &__link
+      text-decoration: none
+      text-transform: uppercase
+      color: inherit
+      font-size: 14px
+      line-height: 18px
+.logo
+  width: 177px
 .search
   display: flex
   position: relative
