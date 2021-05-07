@@ -500,7 +500,7 @@ img {
 }
 
 .hotel-info__description {
-  margin-top: 5px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -534,6 +534,10 @@ img {
 .stars {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+}
+
+.stars-image__element {
+  margin-right: -2px;
 }
 
 .offer {
