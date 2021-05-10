@@ -9,4 +9,10 @@ const swiper = new Swiper('.swiper-container', {
   
   },
   effect: 'slide',
+
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+    pageUpDown: true,
+  }
 });
