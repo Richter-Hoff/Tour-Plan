@@ -814,8 +814,10 @@ img {
   background-image: url(../img/photo/newsletter-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 260px;
+  background: transparent;
+  background-attachment: fixed;
 }
 
 .newsletter:before {
