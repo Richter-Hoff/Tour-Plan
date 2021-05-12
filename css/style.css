@@ -1241,15 +1241,51 @@ img {
 }
 
 @media (max-width: 576px) {
+  .container {
+    width: 280px;
+  }
   .logo {
     width: 99px;
   }
+  .hotel-info__name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 13px;
+  }
+  .hotel-info__offer {
+    margin-top: -17px;
+  }
+  .breadcrumb-list__item {
+    font-size: 10px;
+  }
+  .stars {
+    margin-top: -11px;
+    margin-right: 20px;
+  }
   .swiper-container {
-    height: 250px;
+    height: 180px;
     margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .booking {
+    position: relative;
+    height: 100px;
+  }
+  .map {
+    width: 283px;
+    position: absolute;
+    margin-top: 220px;
   }
   .newsletter {
+    height: 318px;
     padding: 76px 0 83px 0;
+    margin-top: -73px;
+  }
+  .newsletter__title {
+    margin-top: -2px;
+    margin-left: 23px;
   }
   .newsletter-title {
     margin-bottom: 37px;
@@ -1259,12 +1295,61 @@ img {
     line-height: 25px;
   }
   .newsletter-title__strong {
+    margin-top: 7px;
     font-size: 30px;
     font-style: normal;
     line-height: 38px;
   }
   .subscribe {
-    width: 100%;
+    width: 280px;
+    margin: auto;
+  }
+  .booking__heading {
+    margin-top: -5px;
+  }
+  .booking__num {
+    margin-top: -5px;
+  }
+  .reviews {
+    padding: 40px 0 0 0;
+  }
+  .reviews__title {
+    width: 220px;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .reviews-slider {
+    margin-top: 33px;
+    min-height: 700px;
+  }
+  .reviews-slider__profile {
+    min-height: 100px;
+  }
+  .reviews-slider__text {
+    width: 230px;
+  }
+  .reviews-slider__username {
+    margin-top: 19px;
+  }
+  .reviews-slider__button {
+    top: 35px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .reviews-slider__button--prev {
+    left: 50%;
+    margin-left: -65px;
+    -webkit-transform: translate(-140%, 0);
+            transform: translate(-140%, 0);
+  }
+  .reviews-slider__button--next {
+    right: 50%;
+    margin-right: -65px;
+    -webkit-transform: translate(255%, 0);
+            transform: translate(255%, 0);
   }
 }
 /*# sourceMappingURL=style.css.map */

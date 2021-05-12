@@ -147,14 +147,46 @@
           margin-right: -65px
           transform: translate(150%, 0)
 @media (max-width: 576px)
+  .container
+    width: 280px
   .logo
     width: 99px
+  .hotel
+    &-info
+      &__name
+        margin: 0
+        font-size: 24px
+        font-weight: 700
+        line-height: 30px
+        margin-top: 13px
+      &__offer
+        margin-top: -17px
+  .breadcrumb
+    &-list
+      &__item
+        font-size: 10px
+  .stars
+    margin-top: -11px
+    margin-right: 20px
   .swiper
     &-container
-      height: 250px
+      height: 180px
       margin-bottom: 20px
+      margin-top: 15px
+  .booking
+    position: relative
+    height: 100px
+  .map
+    width: 283px
+    position: absolute
+    margin-top: 220px
   .newsletter
+    height: 318px
     padding: 76px 0 83px 0
+    margin-top: -73px
+    &__title
+      margin-top: -2px
+      margin-left: 23px
     &-title
       margin-bottom: 37px
       font-size: 20px
@@ -162,8 +194,44 @@
       font-weight: 300
       line-height: 25px
       &__strong
+        margin-top: 7px
         font-size: 30px
         font-style: normal
         line-height: 38px
   .subscribe
-    width: 100%
+    width: 280px
+    margin: auto
+  .booking
+    &__heading
+      margin-top: -5px
+    &__num
+      margin-top: -5px
+  .reviews
+    padding: 40px 0 0 0
+    &__title
+      width: 220px
+      text-align: center
+      margin: auto
+      font-size: 17px
+      line-height: 25px
+    &-slider
+      margin-top: 33px
+      min-height: 700px
+      &__profile
+        min-height: 100px
+      &__text
+        width: 230px
+      &__username
+        margin-top: 19px
+      &__button
+        top: 35px
+        left: 50%
+        transform: translate(-50%, 0)
+        &--prev
+          left: 50%
+          margin-left: -65px
+          transform: translate(-140%, 0)
+        &--next
+          right: 50%
+          margin-right: -65px
+          transform: translate(255%, 0)
