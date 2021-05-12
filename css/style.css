@@ -810,6 +810,9 @@ img {
   .container {
     max-width: 960px;
   }
+  .swiper-slide__img {
+    height: 100%;
+  }
 }
 
 @media (max-width: 992px) {
