@@ -17,21 +17,34 @@
       padding-top: 30px
       padding-bottom: 30px
     &__search
-      margin-left: auto
+      margin-left: 50px
+      width: 340px
     &-menu
-      padding-top: 22px
-      padding-bottom: 22px
+      padding-top: 19px
+      padding-bottom: 24px
       &__link
+        margin-left: 12px
+        margin-right: 12px
         font-size: 12px
         line-height: 15px
+  .search
+    &__button
+      width: 64px
+      margin-left: 15px
   .navbar
     &__input
       width: 340px
   .hotel
     &-grid
       flex-direction: column
+      margin-bottom: -3px
     &-right
       flex-direction: row
+    &-info
+      &__description
+        margin-top: 2px
+      &__rating
+        margin-top: 10px
   .swiper
     &-container
       width: 700px
@@ -39,10 +52,22 @@
     &-slide
       &__img
         width: 100%
+  .newsletter
+    margin-top: -12px
+    &-title
+      margin-top: 10px
   .booking
     width: 340px
   .map
     width: 340px
+  .reviews
+    &__title
+      margin-top: 20px
+      font-size: 30px
+    &-slider
+      margin-top: -18px
+      &__item
+        max-width: 580px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -102,6 +127,25 @@
       width: 92%
       flex-direction: column
       align-items: flex-start
+  .reviews
+    &-slider
+      &__item
+        padding: 0 30px 30px
+        &:after,
+        &:before
+          display: none
+      &__button
+        top: 45px
+        left: 50%
+        transform: translate(-50%, 0)
+        &--prev
+          left: 50%
+          margin-left: -65px
+          transform: translate(-50%, 0)
+        &--next
+          right: 50%
+          margin-right: -65px
+          transform: translate(150%, 0)
 @media (max-width: 576px)
   .logo
     width: 99px
