@@ -817,6 +817,8 @@ img {
   background-position: top;
   min-height: 260px;
   background: transparent;
+  -webkit-transform: translateZ(-10px);
+          transform: translateZ(-10px);
 }
 
 .newsletter:before {
