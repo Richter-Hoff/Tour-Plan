@@ -1210,6 +1210,7 @@ img {
   .newsletter-wrapper {
     max-width: 576px;
     width: 92%;
+    margin-top: -30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
