@@ -1123,6 +1123,237 @@ img {
   cursor: pointer;
 }
 
+.packages {
+  padding: 19px 0 70px 0;
+}
+
+.packages__description {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.packages-card {
+  background-color: #0A223D;
+  min-height: 500px;
+  width: 350px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.packages__descr {
+  padding: 15px 31px 25px 34px;
+  width: 564px;
+}
+
+.packages__icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 11px;
+}
+
+.packages__title {
+  position: relative;
+  margin-bottom: 22px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.packages__block {
+  margin-bottom: 6px;
+}
+
+.packages__blocks {
+  margin-bottom: 24px;
+}
+
+.packages-big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-column: span 2;
+}
+
+.packages-big__flash {
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  padding: 8px;
+  background-color: #EC1F46;
+  color: #fff;
+  top: 1020px;
+  left: 205px;
+  z-index: 99;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+.packages-big__button {
+  min-width: 120px;
+  min-height: 40px;
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 180px;
+  background-color: #EC1F46;
+  padding: 11px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.packages-big__image {
+  position: relative;
+  width: 366px;
+  min-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 8px 0 0 8px;
+}
+
+.packages-big__description {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.packages-big__descr {
+  width: 364px;
+  min-height: 500px;
+  padding: 45px 20px 30px 45px;
+  background-color: #0A223D;
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+}
+
+.packages-big__title {
+  margin-top: 1px;
+  margin-bottom: 26px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.packages-big__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.packages-big__blocks {
+  margin-top: 48px;
+  margin-bottom: 34px;
+}
+
+.packages-big__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 12px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.packages-big__icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 17px;
+}
+
+.packages__image {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+}
+
+.packages-price {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.packages__old-price {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: line-through;
+  margin-bottom: 5px;
+}
+
+.packages__new-price {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.packages__button {
+  min-width: 120px;
+  min-height: 40px;
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 180px;
+  background-color: #EC1F46;
+  padding: 11px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.packages-header {
+  margin-left: 48px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.packages-wrapper {
+  display: -ms-grid;
+  display: grid;
+  gap: 30px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
