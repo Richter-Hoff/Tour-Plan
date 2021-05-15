@@ -1142,6 +1142,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  grid-column: span 2;
 }
 
 .large__title {
@@ -1385,6 +1386,14 @@ img {
   font-weight: 600;
   line-height: 19px;
   cursor: pointer;
+}
+
+.blocks {
+  display: -ms-grid;
+  display: grid;
+  gap: 30px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 @media (max-width: 1200px) {

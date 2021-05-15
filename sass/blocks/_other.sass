@@ -11,6 +11,7 @@
     margin-bottom: 38px
 .large
   display: flex
+  grid-column: span 2
   &__title
     margin-top: 5px
     font-size: 18px
@@ -171,3 +172,7 @@
     font-weight: 600
     line-height: 19px
     cursor: pointer
+.blocks
+  display: grid
+  gap: 30px
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr ))
