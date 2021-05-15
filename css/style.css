@@ -1269,13 +1269,12 @@ img {
 
 .medium-image {
   position: relative;
+  width: 350px;
+  height: 250px;
 }
 
 .medium-image__packages {
-  width: 350px;
-  height: 250px;
   border-radius: 4px 4px 0 0;
-  margin-bottom: -10px;
 }
 
 .medium-image__offer {
