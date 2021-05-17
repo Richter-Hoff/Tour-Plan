@@ -9,6 +9,38 @@
   .card
     width: 230px
     height: 250px
+  .blocks
+    grid-gap: 15px
+  .large
+    &-image
+      &__packages
+        width: 312px
+        height: 450px
+    &-extra
+      width: 312px
+      height: 450px
+    &__title
+      font-size: 15px
+      margin-bottom: 10px
+    &-block
+      margin-top: 25px
+      margin-bottom: 15px
+  .elements
+    &__button
+      margin-top: 10px
+      width: 110px
+      height: 45px
+  .medium
+    &-image
+      width: 300px
+      height: 200px
+    &-extra
+      width: 300px
+  .medium
+    &__button
+      margin-top: 10px
+      width: 100px
+      height: 40px
 @media (max-width: 992px)
   .container,
   .newsletter-wrapper
@@ -81,6 +113,38 @@
   .card
     width: 340px
     height: 255px
+  .blocks
+    grid-gap: 50px
+  .large
+    &-image
+      &__packages
+        width: 350px
+        height: 450px
+    &-extra
+      width: 350px
+      height: 450px
+    &__title
+      font-size: 15px
+      margin-bottom: 10px
+    &-block
+      margin-top: 25px
+      margin-bottom: 15px
+  .elements
+    &__button
+      margin-top: 10px
+      width: 110px
+      height: 45px
+  .medium
+    &-image
+      width: 320px
+      height: 220px
+    &-extra
+      width: 320px
+  .medium
+    &__button
+      margin-top: 10px
+      width: 100px
+      height: 40px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -166,6 +230,61 @@
   .card
     width: 47%
     height: 255px
+  .blocks
+    grid-gap: 10px
+  .large
+    &-image
+      &__packages
+        width: 290px
+        height: 450px
+    &-extra
+      width: 290px
+      height: 450px
+    &__title
+      font-size: 13px
+      margin-bottom: 10px
+    &__text
+      font-size: 11px
+    &-block
+      margin-top: 25px
+      margin-bottom: 15px
+    &__description
+      font-size: 10px
+  .elements
+    &__button
+      margin-top: 10px
+      width: 100px
+      height: 40px
+      font-size: 12px
+    &-price
+      &__old
+        font-size: 12px
+      &__new
+        font-size: 20px
+  .medium
+    &-image
+      width: 270px
+      height: 190px
+    &-extra
+      width: 270px
+  .medium
+    &__button
+      margin-top: 10px
+      width: 100px
+      height: 40px
+    &-title
+      font-size: 14px
+    &-description
+      font-size: 13px
+    &-price
+      &__old
+        font-size: 13px
+      &__new
+        font-size: 19px
+    &__button
+      width: 100px
+      height: 40px
+      font-size: 12px
 @media (max-width: 576px)
   .container
     width: 280px
@@ -195,7 +314,7 @@
       margin-top: 15px
   .booking
     position: relative
-    height: 100px
+    height: 200px
   .map
     width: 283px
     position: absolute
@@ -265,3 +384,51 @@
   .card
     width: 100%
     margin-bottom: 25px
+  .large
+    display: flex
+    grid-column: span 1
+    width: 280px
+    &-extra
+      width: 140px
+      height: 460px
+      padding-top: 15px
+      padding-left: 5px
+      padding-right: 0
+    &-image
+      &__packages
+        width: 140px
+        height: 460px
+    &__title
+      font-size: 12px
+      margin-bottom: 2px
+    &__text
+      font-size: 8px
+    &-block
+      margin-top: 5px
+    &__description
+      font-size: 9px
+  .blocks
+    display: grid
+    gap: 10px
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr ))
+  .other
+    &__title
+      font-size: 20px
+  .elements
+    display: block
+    &__button
+      width: 130px
+      height: 30px
+      font-size: 12px
+    &-price
+      &__old
+
+        font-size: 10px
+      &__new
+        font-size: 14px
+  .medium
+    &-image
+      width: 280px
+      height: 200px
+    &-extra
+      width: 280px
