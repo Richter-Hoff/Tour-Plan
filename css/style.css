@@ -1469,8 +1469,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: start;
-      align-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2 / 4;
@@ -1588,6 +1589,7 @@ img {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   margin-bottom: 17px;
+  resize: none;
 }
 
 .footer__button {
