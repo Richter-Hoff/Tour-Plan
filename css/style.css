@@ -1731,9 +1731,6 @@ img {
     width: 64px;
     margin-left: 15px;
   }
-  .navbar__input {
-    width: 340px;
-  }
   .hotel-grid {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1917,7 +1914,7 @@ img {
   body {
     padding-top: 78px;
   }
-  .navbar__mobile--fixed {
+  .navbar--mobile--fixed {
     position: fixed;
     left: 0;
     top: 0;
@@ -1971,7 +1968,7 @@ img {
   .navbar__search {
     width: 245px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 170px;
     margin-bottom: 20px;
   }
   .menu-button {
@@ -2173,6 +2170,9 @@ img {
   }
   .logo {
     width: 99px;
+  }
+  .navbar__search {
+    margin-left: 30px;
   }
   .hotel-info__name {
     margin: 0;
