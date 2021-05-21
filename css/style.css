@@ -1546,17 +1546,19 @@ img {
 }
 
 .footer__item--mb-2 {
-  margin-bottom: 20px;
+  margin-top: -15px;
+  margin-bottom: 23px;
 }
 
 .footer__icon {
   position: relative;
-  margin-left: 10px;
+  margin-left: 6px;
+  margin-top: 17px;
 }
 
 .footer__icon--mt-1 {
   position: absolute;
-  margin-top: -30px;
+  margin-top: 8px;
 }
 
 .footer__icon-wrapper {
@@ -1644,6 +1646,32 @@ img {
   grid-column: 4;
   margin-left: 125px;
   margin-top: -8px;
+}
+
+.footer__mobile {
+  margin-left: 45px;
+  margin-top: -7px;
+  text-decoration: none;
+  color: #BDBDBD;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.footer__mail {
+  margin-left: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #BDBDBD;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.footer__address {
+  margin-left: 5px;
 }
 
 @media (max-width: 1200px) {
