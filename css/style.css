@@ -2202,6 +2202,9 @@ img {
   .navbar__search {
     margin-left: 30px;
   }
+  .navbar-bottom {
+    overflow-y: scroll;
+  }
   .hotel-info__name {
     margin: 0;
     font-size: 24px;
