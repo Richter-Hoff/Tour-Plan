@@ -361,6 +361,32 @@ img {
   max-width: 100%;
 }
 
+.input {
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 0 23px;
+  height: 50px;
+}
+
+.message {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 18px 23px;
+  border: none;
+}
+
+.button {
+  min-width: 160px;
+  min-height: 50px;
+  padding: 18px;
+  background-color: #EC1F46;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
 .navbar {
   background-color: #fff;
 }
@@ -1577,37 +1603,17 @@ img {
 }
 
 .footer__input {
-  background-color: #fff;
-  border-radius: 4px;
-  border: none;
-  padding: 0 23px;
-  height: 50px;
   margin-bottom: 15px;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
 }
 
 .footer__message {
-  background-color: #fff;
-  border-radius: 4px;
-  padding: 18px 23px;
   height: 130px;
-  border: none;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   margin-bottom: 17px;
   resize: none;
-}
-
-.footer__button {
-  min-width: 160px;
-  min-height: 50px;
-  padding: 18px;
-  background-color: #EC1F46;
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
 }
 
 .footer__info {
@@ -1675,20 +1681,73 @@ img {
   margin-left: 5px;
 }
 
-button__message {
-  min-width: 160px;
-  min-height: 50px;
-  padding: 18px;
-  background-color: #EC1F46;
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
+.modal__overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 143, 223, 0.39);
+  z-index: 100;
 }
 
-button__link {
+.modal__dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 478px;
+  min-height: 488px;
+  padding: 16px 88px;
+  background-color: #0A223D;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   color: #fff;
+  border-radius: 8px;
+  z-index: 101;
+}
+
+.modal__close {
+  position: absolute;
+  right: 18px;
+  top: 17px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.modal__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.modal__input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.modal__message {
+  width: 100%;
+  min-height: 123px;
+  margin-bottom: 13px;
+}
+
+.modal__button {
+  height: 30px;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.modal__info {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #E0E0E0;
+  margin-left: 40px;
 }
 
 @media (max-width: 1200px) {
