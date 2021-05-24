@@ -61,4 +61,11 @@ $(document).ready(function () {
     modalOverlay.removeClass("modal__overlay--visible");
     modalDialog.removeClass("modal__dialog--visible");
   }
+
+  $(document).keydown(function (e) {
+    var modalOverlay = e.keyCode || e.which;
+    if (modalOverlay == 27) $(".modal__overlay").hide();
+    var modalDialog = e.keyCode || e.which;
+    if (modalDialog == 27) $(".modal__dialog").hide();
+  });
 });
