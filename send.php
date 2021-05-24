@@ -16,14 +16,10 @@ $body = "
 <h2>Новое обращение</h2>
 <b>Имя:</b> $name<br>
 <b>Телефон:</b> $phone<br><br>
-<b>Сообщение:</b><br>$message
-";
-
-$title = "Новое обращение Best Tour Plan";
-$body = "
-<h2>Подписка на Best Tour Plan</h2>
+<b>Сообщение:</b><br>$message<br><br> 
 <b>Подписка:</b><br>$subscribe
 ";
+
 // Настройки PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer();
 try {
@@ -61,3 +57,4 @@ else {$result = "error";}
 
 // Отображение результата
 header('Location: thankyou.html');
+
