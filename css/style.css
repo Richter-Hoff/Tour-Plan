@@ -2650,5 +2650,8 @@ img {
     padding: 13px;
     font-size: 10px;
   }
+  .modal__info {
+    margin-left: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
