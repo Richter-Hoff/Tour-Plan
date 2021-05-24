@@ -1624,6 +1624,17 @@ img {
   color: #E0E0E0;
 }
 
+.footer__button {
+  min-width: 160px;
+  min-height: 50px;
+  padding: 18px;
+  background-color: #EC1F46;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
 .footer__bottom {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
@@ -1689,6 +1700,15 @@ img {
   bottom: 0;
   background-color: rgba(0, 143, 223, 0.39);
   z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.modal__overlay--visible {
+  visibility: visible;
+  opacity: 1;
 }
 
 .modal__dialog {
@@ -1704,6 +1724,15 @@ img {
   color: #fff;
   border-radius: 8px;
   z-index: 101;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.modal__dialog--visible {
+  visibility: visible;
+  opacity: 1;
 }
 
 .modal__close {
