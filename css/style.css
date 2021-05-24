@@ -2629,10 +2629,9 @@ img {
     margin-top: -47px;
   }
   .modal__dialog {
-    padding: 50px 60px;
+    padding: 50px 90px;
     width: 460px;
     min-height: 220px;
-    overflow-y: scroll;
   }
   .modal__title {
     font-size: 13px;
@@ -2644,6 +2643,7 @@ img {
   }
   .modal__message {
     min-height: 40px;
+    margin-left: 0;
   }
   .modal__button {
     min-height: 20px;
