@@ -2629,8 +2629,14 @@ img {
     margin-top: -47px;
   }
   .modal__dialog {
-    padding: 10px 10px;
-    width: 358px;
+    padding: 10px 30px;
+    width: 258px;
+  }
+  .modal__button {
+    margin-right: 30px;
+  }
+  .modal__info {
+    margin-left: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
