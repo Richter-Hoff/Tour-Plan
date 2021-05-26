@@ -1094,11 +1094,12 @@
             <form action="send.php" method="POST" class="footer__form form">
               <div class="footer__input-group">
                 <input
-                  type="name"
+                  type="text"
                   class="input footer__input"
                   placeholder="Your Full Name*"
                   name="name"
                   required
+                  minlength="2"
                 />
               </div>
               <div class="footer__input-group">
@@ -1151,7 +1152,7 @@
         <h3 class="modal__title modal__title--mb-3">Booking</h3>
         <form action="send.php" method="POST" class="modal__form form">
           <input
-            type="name"
+            type="text"
             class="input modal__input"
             placeholder="Your Full Name*"
             name="name"

@@ -362,6 +362,7 @@ img {
 }
 
 .input {
+  position: relative;
   background-color: #fff;
   border-radius: 4px;
   border: none;
@@ -370,6 +371,7 @@ img {
 }
 
 .message {
+  position: relative;
   background-color: #fff;
   border-radius: 4px;
   padding: 18px 23px;
@@ -509,7 +511,7 @@ img {
 }
 
 .hotel {
-  padding: 16px 0 72px 0;
+  padding: 16px 0 0 0;
 }
 
 .hotel-name {
@@ -1530,9 +1532,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1774,9 +1773,6 @@ img {
 }
 
 .modal__button {
-  min-height: 30px;
-  padding: 15px;
-  font-size: 12px;
   margin-top: 15px;
 }
 
