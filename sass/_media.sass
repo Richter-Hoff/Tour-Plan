@@ -93,6 +93,8 @@
     height: 260px
     &-title
       margin-top: 10px
+    &__subscribe
+      margin-top: -10px
   .booking
     width: 340px
   .map
@@ -101,12 +103,25 @@
     &__title
       margin-left: -5px
       font-size: 30px
+      margin-bottom: 67px
     &-slider
       margin-top: -18px
+      &__button
+        top: 49%
+        &--prev
+          left: 1px
+        &--next
+          right: 2px
+      &__username
+        margin-top: 7px
+        margin-bottom: 13px
       &__item
         max-width: 580px
+        margin-top: 45px
+      &__text
+        margin-top: -3px
   .activities
-    padding-top: 18px
+    padding-top: 23px
     &-wrapper
       flex-wrap: wrap
     &__card
@@ -147,7 +162,7 @@
       width: 100px
       height: 40px
   .footer
-    margin-top: -50px
+    margin-top: -44px
     padding-top: 70px
     padding-bottom: 0
     &-wrapper
@@ -166,15 +181,16 @@
         grid-column: span 4
         align-self: center
         padding-top: 18px
+        margin-left: -100px
     &__categories
       grid-row: 2 / 3
       grid-column: span 2
     &__legal
       grid-column: span 2
-      margin-left: -5px
+      margin-left: -50px
     &__additional
       grid-column: span 2
-      margin-left: -90px
+      margin-left: -172px
     &__contact
       &-details
         grid-column: span 5
@@ -189,12 +205,12 @@
       width: 534px
     &__bottom
       margin-left: 1px
-      margin-top: -60px
+      margin-top: -70px
       grid-column: 1 / 5
     &__paypal
       grid-column: 6
-      margin-top: -60px
-      margin-left: -60px
+      margin-top: -80px
+      margin-left: -70px
   .modal
     &__dialog
       padding: 15px 38px
@@ -238,6 +254,7 @@
         display: block
     &-menu
       flex-direction: column
+      margin-left: -10px
       &__item
         margin-top: 10px
         margin-bottom: 6px
@@ -399,6 +416,7 @@
 @media (max-width: 576px)
   .container
     width: 280px
+    overflow-x: hidden
   .logo
     width: 99px
   .navbar
@@ -407,21 +425,29 @@
     &-bottom
       overflow-y: scroll
   .hotel
+    padding-top: 16px
     &-info
+      &__text
+        margin-top: 15px
+      &__description
+        margin-top: 1px
       &__name
         margin: 0
+        margin-top: 10px
         font-size: 24px
         font-weight: 700
         line-height: 30px
-        margin-top: 13px
       &__offer
-        margin-top: -17px
+        margin-top: -20px
+    &-wrapper
+      margin-top: 10px
   .breadcrumb
     &-list
+      padding-bottom: 1px
       &__item
         font-size: 10px
   .stars
-    margin-top: -11px
+    margin-top: -15px
     margin-right: 20px
   .swiper
     &-container
@@ -456,6 +482,7 @@
     width: 280px
     margin: auto
   .booking
+    padding: 30px 22px
     &__heading
       margin-top: -5px
     &__num
@@ -547,21 +574,30 @@
     &-extra
       width: 280px
   .footer
-    margin-top: -18px
-    padding-top: 63px
+    margin-top: -25px
+    padding-top: 68px
+    &__mail
+      margin-left: -5px
+      margin-top: 15px
+    &__mobile
+      margin-left: 35px
     &-wrapper
       grid-template-columns: 1fr
       grid-gap: 13px
+    &__address
+      margin-left: -6px
     &__logo
       width: 97px
-      height: 120px
+      height: 110px
       grid-row: 1
       grid-column: 1
+      margin-bottom: 1px
     &__social
       &-network
         flex-wrap: wrap
         grid-row: 2
         grid-column: 1
+        margin-left: 0
       &-links
         margin-right: 50px
         margin-top: 22px
@@ -580,7 +616,7 @@
       &--mb-4
         width: 270px
         line-height: 25px
-        margin-bottom: 17px
+        margin-bottom: 18px
     &__ul
       width: 270px
     &__additional
@@ -624,8 +660,10 @@
     &__bottom
       grid-row: 10
       grid-column: 1
-      margin-top: -105px
+      margin-top: -100px
       width: 300px
+    &-policy
+      font-size: 11px
     &__paypal
       margin-top: -133px
       grid-column: 1
@@ -637,10 +675,20 @@
         margin-bottom: 22px
         margin-left: -5px
     &__icon
+      margin-top: -15px
       &--mt-1
-        margin-top: -47px
+        margin-top: 5px
+      &--mt-6
+        margin-left: 10px
+        margin-top: 22px
     &__input
-      width: 280px
+      width: 270px
+      margin-bottom: -5px
+      font-size: 12px
+    &__message
+      max-width: 270px
+      height: 122px
+      font-size: 12px
   .modal
     &__dialog
       padding: 50px 90px
