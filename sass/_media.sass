@@ -126,7 +126,14 @@
       flex-wrap: wrap
     &__card
       margin-bottom: 20px
-
+      &--1
+        margin-bottom: 20px
+      &--2
+        margin-bottom: 20px
+      &--3
+        margin-bottom: 20px
+      &--4
+        margin-bottom: 20px
   .card
     width: 340px
     height: 255px
@@ -218,6 +225,19 @@
   .footer
     &__input
       width: 255px
+    &-policy
+      margin-top: 5px
+    &-paypal
+      margin-top: 7px
+    &__button
+      height: 30px
+      font-size: 10px
+    &__message
+      margin-top: -4px
+    &__contact
+      &-form
+        margin-top: -20px
+        margin-left: 0
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -448,7 +468,7 @@
       &__item
         font-size: 10px
   .stars
-    margin-top: -15px
+    margin-top: -20px
     margin-right: 20px
   .swiper
     &-container
@@ -457,7 +477,7 @@
       margin-top: 15px
   .booking
     position: relative
-    height: 200px
+    height: 210px
   .map
     width: 283px
     position: absolute
@@ -531,15 +551,15 @@
       font-weight: 700
       font-style: normal
       margin-bottom: 36px
-      &__card
-        &--1
-          order: 2
-        &--2
-          order: 0
-        &--3
-          order: 1
-        &--4
-          order: 4
+    &__card
+      &--1
+        order: 0
+      &--2
+        order: 3
+      &--3
+        order: 2
+      &--4
+        order: 4
   .card
     width: 100%
     margin-bottom: 25px
