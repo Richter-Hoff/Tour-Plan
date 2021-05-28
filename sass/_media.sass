@@ -126,6 +126,7 @@
       flex-wrap: wrap
     &__card
       margin-bottom: 20px
+
   .card
     width: 340px
     height: 255px
@@ -530,6 +531,15 @@
       font-weight: 700
       font-style: normal
       margin-bottom: 36px
+      &__card
+        &--1
+          order: 2
+        &--2
+          order: 0
+        &--3
+          order: 1
+        &--4
+          order: 4
   .card
     width: 100%
     margin-bottom: 25px
@@ -670,7 +680,10 @@
       margin-top: -100px
       width: 300px
     &-policy
-      font-size: 11px
+      font-size: 12px
+      margin-top: -4px
+      margin-left: 4px
+      margin-right: 5px
     &__paypal
       margin-top: -133px
       grid-column: 1
