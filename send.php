@@ -31,15 +31,15 @@ try {
 
     // Настройки вашей почты
     $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-    $mail->Username   = 'messer7x@richter-hoff.ru'; // Логин на почте
-    $mail->Password   = 'mBnM34yY9R'; // Пароль на почте
+    $mail->Username   = 'richterdeveloper'; // Логин на почте
+    $mail->Password   = 'hprnfcngahijwimt'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('messer7x@richter-hoff.ru', 'Надежда Рихтер'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('richterdeveloper@gmail.com', 'Надежда Рихтер'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('messer7x@gmail.com');  
-
+    $mail->addAddress('linkmessage@richter-hoff.ru');  
+    $mail->addAddress('messer7x@gmail.com');
     
     // Отправка сообщения
     $mail->isHTML(true);
