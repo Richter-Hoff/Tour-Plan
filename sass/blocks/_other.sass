@@ -87,6 +87,17 @@
       font-style: normal
       font-weight: 700
       line-height: 30px
+  &__link
+    &::after
+      content: ''
+      display: block
+      height: 1px
+      width: 0%
+      background-color: $light
+      transition: width 0.4s ease-in-out
+      margin-left: 20px
+    &:hover:after, &:focus
+      width: 65%
   &__button
     width: 120px
     height: 40px

@@ -38,6 +38,17 @@
     bottom: 0
     object-fit: cover
     z-index: -2
+  &__link
+    &::after
+      content: ''
+      display: block
+      height: 1px
+      width: 0%
+      background-color: $light
+      transition: width 0.4s ease-in-out
+      margin-left: 13px
+    &:hover:after, &:focus
+      width: 70%
   &__title
     margin-top: auto
     z-index: 0

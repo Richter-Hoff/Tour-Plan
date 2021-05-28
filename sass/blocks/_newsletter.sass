@@ -68,3 +68,14 @@
     font-weight: 700
     line-height: 15px
     cursor: pointer
+  &__link
+    &::after
+      content: ''
+      display: block
+      height: 1px
+      width: 0%
+      background-color: $light
+      transition: width 0.4s ease-in-out
+      margin-left: 10px
+    &:hover:after, &:focus
+      width: 65%

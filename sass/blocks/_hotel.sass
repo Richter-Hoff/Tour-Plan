@@ -174,7 +174,17 @@
     border: none
     color: $light
     cursor: pointer
-    padding: 5px
+  &__link
+    &::after
+      content: ''
+      display: block
+      height: 1px
+      width: 0%
+      background-color: $light
+      transition: width 0.4s ease-in-out
+      margin-left: 60px
+    &:hover:after, &:focus
+      width: 55%
 .map
   width: 347px
   height: 213px
