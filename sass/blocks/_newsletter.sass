@@ -1,11 +1,10 @@
 .newsletter
-  position: relative
   padding: 82px 0 87px 0
   background-image: url(../img/photo/newsletter-bg.jpg)
   background-repeat: no-repeat
   background-size: cover
   background-position: top
-  height: 260px
+  max-height: 260px
   background: transparent
   transform: translateZ(-10px)
   &:before
@@ -22,10 +21,13 @@
     display: flex
     align-items: center
     justify-content: space-between
+    align-items: flex-start
     position: relative
     max-width: 731px
     margin: auto
   &-title
+    overflow: hidden
+    width: 300px
     color: $light
     font-style: normal
     font-weight: 300
@@ -38,6 +40,7 @@
       line-height: 45px
 .subscribe
   position: relative
+  margin-top: 30px
   width: 350px
   min-height: 55px
   border-radius: 4px
