@@ -23,7 +23,12 @@
     align-items: flex-start
     max-width: 731px
     margin: auto
-
+  &__form
+    position: relative
+    margin-top: 30px
+    width: 350px
+    min-height: 55px
+    border-radius: 4px
   &-title
     position: relative
     width: 300px
@@ -39,19 +44,13 @@
       text-transform: uppercase
       font-size: 36px
       line-height: 45px
-.form
-  position: relative
-  margin-top: 30px
-  width: 350px
-  min-height: 55px
-  border-radius: 4px
+
 .subscribe
   &__input
     position: absolute
     width: 100%
     height: 100%
     border: none
-    margin-top: -20px
     padding-left: 33px
     padding-right: 75px
     font-style: normal
@@ -76,9 +75,6 @@
     line-height: 15px
     cursor: pointer
     border-radius: 0 5px 5px 0
-  &__link
-    text-align: center
-    padding-top: 8px
     &::after
       content: ''
       display: block
@@ -86,6 +82,6 @@
       width: 0%
       background-color: $light
       transition: width 0.4s ease-in-out
-      margin-left: 15px
+      margin-left: 12px
     &:hover:after, &:focus
       width: 60%

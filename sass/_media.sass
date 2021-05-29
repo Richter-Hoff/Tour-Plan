@@ -65,6 +65,8 @@
         margin-right: 12px
         font-size: 12px
         line-height: 15px
+        &::after
+          display: none
   .search
     &__button
       width: 64px
@@ -95,8 +97,13 @@
       margin-top: 10px
     &__subscribe
       margin-top: -10px
+    &__form
+      margin-top: 20px
   .booking
     width: 340px
+    &__link
+      &::after
+        display: none
   .map
     width: 340px
   .reviews
@@ -154,21 +161,34 @@
       margin-top: 25px
       margin-bottom: 15px
   .elements
-    &__button
+    &-button
       margin-top: 10px
       width: 110px
       height: 45px
+      &__link
+        &::after
+          display: none
   .medium
+    &-button
+      margin-top: 10px
+      width: 100px
+      height: 40px
+      &__link
+        &::after
+          display: none
     &-image
       width: 320px
       height: 220px
     &-extra
       width: 320px
-  .medium
+  .subscribe
     &__button
-      margin-top: 10px
-      width: 100px
-      height: 40px
+      &::after
+        display: none
+  .card
+    &__link
+      &::after
+        display: none
   .footer
     margin-top: -44px
     padding-top: 70px
@@ -219,6 +239,13 @@
       grid-column: 6
       margin-top: -80px
       margin-left: -70px
+    &__link,
+    &__mobile,
+    &__mail,
+    &__button
+      &::after
+        display: none
+
   .modal
     &__dialog
       padding: 15px 38px
@@ -238,7 +265,7 @@
       &-form
         margin-top: -20px
         margin-left: 0
-@media (max-width: 768px)
+@media (max-width: 767px)
   .container
     max-width: 576px
     width: 92%
@@ -282,6 +309,7 @@
         &--mobile
           &--visible
             display: block
+
     &__search
       width: 245px
       margin-top: 10px
@@ -341,11 +369,10 @@
     width: 100%
   .newsletter
     &-wrapper
-      max-width: 576px
       width: 92%
-      margin-top: -30px
       flex-direction: column
       align-items: flex-start
+
   .reviews
     &-slider
       &__item
