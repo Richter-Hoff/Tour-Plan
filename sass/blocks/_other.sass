@@ -87,29 +87,32 @@
       font-style: normal
       font-weight: 700
       line-height: 30px
-  &__link
-    &::after
-      content: ''
-      display: block
-      height: 1px
-      width: 0%
-      background-color: $light
-      transition: width 0.4s ease-in-out
-      margin-left: 20px
-    &:hover:after, &:focus
-      width: 65%
-  &__button
+  &-button
+    margin-top: 20px
     width: 120px
-    height: 40px
+    min-height: 40px
     background-color: $primary
     color: $light
-    border: none
     border-radius: 4px
-    cursor: pointer
-    margin-top: 18px
+    border: none
     font-size: 14px
     font-style: normal
     font-weight: 600
+    line-height: 19px
+    cursor: pointer
+    &__link
+      text-align: center
+      margin-top: 12px
+      &::after
+        content: ''
+        display: block
+        height: 1px
+        width: 0%
+        background-color: $light
+        transition: width 0.4s ease-in-out
+        margin-left: 20px
+      &:hover:after, &:focus
+        width: 65%
 .medium
   &-image
     position: relative
@@ -177,7 +180,7 @@
       font-style: normal
       font-weight: 700
       line-height: 30px
-  &__button
+  &-button
     margin-top: 20px
     width: 120px
     min-height: 40px
@@ -190,6 +193,19 @@
     font-weight: 600
     line-height: 19px
     cursor: pointer
+    &__link
+      text-align: center
+      margin-top: 12px
+      &::after
+        content: ''
+        display: block
+        height: 1px
+        width: 0%
+        background-color: $light
+        transition: width 0.4s ease-in-out
+        margin-left: 20px
+      &:hover:after, &:focus
+        width: 65%
 .blocks
   display: grid
   gap: 30px
