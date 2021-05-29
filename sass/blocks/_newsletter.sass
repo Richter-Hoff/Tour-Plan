@@ -23,9 +23,12 @@
     align-items: flex-start
     max-width: 731px
     margin: auto
+
   &-title
     position: relative
     width: 300px
+    height: 100px
+    overflow: hidden
     color: $light
     font-style: normal
     font-weight: 300
@@ -36,26 +39,29 @@
       text-transform: uppercase
       font-size: 36px
       line-height: 45px
-.subscribe
+.form
   position: relative
   margin-top: 30px
   width: 350px
   min-height: 55px
   border-radius: 4px
-  overflow: hidden
+.subscribe
   &__input
     position: absolute
     width: 100%
     height: 100%
     border: none
+    margin-top: -20px
     padding-left: 33px
     padding-right: 75px
     font-style: normal
     font-weight: 300
     font-size: 14px
     line-height: 18px
+    border-radius: 5px
   &__button
     position: absolute
+    text-decoration: none
     width: 65px
     right: 0
     top: 0
@@ -69,6 +75,7 @@
     font-weight: 700
     line-height: 15px
     cursor: pointer
+    border-radius: 0 5px 5px 0
   &__link
     text-align: center
     padding-top: 8px
