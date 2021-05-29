@@ -610,22 +610,30 @@
     &-extra
       width: 140px
       height: 460px
-      padding-top: 15px
-      padding-left: 5px
-      padding-right: 0
+      padding: 30px 20px
     &-image
       &__packages
         width: 140px
         height: 460px
     &__title
-      font-size: 12px
-      margin-bottom: 2px
+      font-size: 11px
+      margin-bottom: 1px
     &__text
       font-size: 8px
+      line-height: 1px
     &-block
-      margin-top: 5px
+      margin-top: 15px
+      &__element
+        margin-bottom: 2px
     &__description
-      font-size: 9px
+      font-size: 5px
+    &__icon
+      width: 9px
+      height: 9px
+  .stars
+    &-image
+      width: 5px
+      height: 5px
   .blocks
     display: grid
     gap: 10px
@@ -635,21 +643,36 @@
       font-size: 20px
   .elements
     display: block
-    &__button
-      width: 130px
+    &-button
+      display: inline-block
       height: 30px
-      font-size: 12px
+      &__btn
+      &__link
+        margin-top: 5px
+        font-size: 10px
     &-price
       &__old
-        font-size: 10px
+        font-size: 9px
       &__new
-        font-size: 14px
+        font-size: 12px
+        margin-top: -10px
   .medium
+    &-button
+      height: 20px
+      &__link
+        font-size: 11px
+        margin-top: 8
+    &-title
+      font-size: 13px
+      margin-bottom: 15px
+    &-description
+      font-size: 11px
     &-image
       width: 280px
       height: 200px
     &-extra
       width: 280px
+      padding: 30px
   .footer
     margin-top: -25px
     padding-top: 68px
