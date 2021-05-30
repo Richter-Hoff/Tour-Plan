@@ -631,6 +631,7 @@
   .card
     width: 100%
   .large
+    display: none
     display: flex
     grid-column: span 1
     margin: 0
@@ -685,6 +686,13 @@
     &__title
       margin-left: 0
       font-size: 20px
+  label.invalid
+    position: absolute
+    top: 53px
+    left: 10px
+  .invalid
+    color: $primary
+    font-size: 12px
   .elements
     display: block
     &-button
