@@ -284,12 +284,13 @@
         margin-left: 0
 @media (max-width: 767px)
   .container
-    max-width: 576px
     width: 92%
     overflow-x: hidden
   body
     padding-top: 78px
   .navbar
+    &-top
+      width: 92%
     &--mobile
       &--fixed
         position: fixed
@@ -320,18 +321,16 @@
         display: block
     &-menu
       flex-direction: column
-      margin-left: -10px
       &__item
         margin-top: 10px
         margin-bottom: 6px
         &--mobile
           &--visible
             display: block
-
     &__search
       width: 245px
       margin-top: 10px
-      margin-left: 170px
+      margin-left: 230px
       margin-bottom: 20px
   .menu
     &-button
@@ -344,7 +343,6 @@
       background-color: $light
       cursor: pointer
       &__line
-        margin-right: 30px
         width: 16px
         height: 1px
         background-color: $gray
@@ -629,6 +627,7 @@
     margin: 0
     margin-top: 180px
     height: 300px
+    margin-bottom: -40px
     &-extra
       position: absolute
       width: 90%
